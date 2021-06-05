@@ -3,7 +3,6 @@ import { Component } from 'react-simplified';
 import ReactDOM from 'react-dom';
 import { NavLink, HashRouter, Route } from 'react-router-dom';
 import { TVList, TVDetails } from './tv-shows';
-import { pool } from './mysql-pool';
 
 class Menu extends Component {
   render() {
